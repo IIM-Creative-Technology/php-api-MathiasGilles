@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="594bc190-1112-46cf-903a-305ad7d2a976" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20210314122720.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Classroom.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Classroom.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Grade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Grade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Intervenant.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Intervenant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Subject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Subject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/SubjectRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/SubjectRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +152,10 @@
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/api-platform/core" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pkOnOLKnMmjZGVZtCNjdzjTdfp" />
@@ -176,7 +183,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615723788199</updated>
-      <workItem from="1615723789496" duration="7510000" />
+      <workItem from="1615723789496" duration="7904000" />
     </task>
     <servers />
   </component>
