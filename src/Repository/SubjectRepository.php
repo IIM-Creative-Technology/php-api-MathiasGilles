@@ -47,4 +47,15 @@ class SubjectRepository extends ServiceEntityRepository
         ;
     }
     */
+
+    public function getSubjectByPromo($id)
+    {
+        return $this->getEntityManager()->createQuery(
+            "SELECT s
+            FROM App:Subject s
+            WHERE s.classroom = :id"
+        )
+            ->setParameter("id", $id)
+            ->getResult();
+    }
 }

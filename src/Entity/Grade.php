@@ -29,6 +29,11 @@ class Grade
      */
     private $subject;
 
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $result;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -54,6 +59,18 @@ class Grade
     public function setSubject(?Subject $subject): self
     {
         $this->subject = $subject;
+
+        return $this;
+    }
+
+    public function getResult(): ?int
+    {
+        return $this->result;
+    }
+
+    public function setResult(int $result): self
+    {
+        $this->result = $result;
 
         return $this;
     }

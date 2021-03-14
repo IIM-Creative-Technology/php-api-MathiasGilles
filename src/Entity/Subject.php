@@ -30,7 +30,7 @@ class Subject
     private $dateStart;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="date")
      */
     private $dateEnd;
 
@@ -85,12 +85,12 @@ class Subject
         return $this;
     }
 
-    public function getDateEnd(): ?string
+    public function getDateEnd(): ?\DateTimeInterface
     {
         return $this->dateEnd;
     }
 
-    public function setDateEnd(string $dateEnd): self
+    public function setDateEnd(\DateTimeInterface $dateEnd): self
     {
         $this->dateEnd = $dateEnd;
 

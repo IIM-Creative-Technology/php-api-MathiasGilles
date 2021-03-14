@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="594bc190-1112-46cf-903a-305ad7d2a976" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20210314122720.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Grade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Grade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Subject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Subject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/SubjectRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/SubjectRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +147,8 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pkOnOLKnMmjZGVZtCNjdzjTdfp" />
@@ -149,6 +160,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -158,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615723788199</updated>
-      <workItem from="1615723789496" duration="582000" />
+      <workItem from="1615723789496" duration="7510000" />
     </task>
     <servers />
   </component>
@@ -175,5 +193,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="756" y="258" key="#com.intellij.ide.util.MemberChooser" timestamp="1615731307356">
+      <screen x="0" y="23" width="1920" height="1110" />
+    </state>
+    <state x="756" y="258" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1110@0.23.1920.1110" timestamp="1615731307356" />
+    <state x="659" y="317" width="724" height="522" key="find.popup" timestamp="1615731388849">
+      <screen x="0" y="23" width="1920" height="1110" />
+    </state>
+    <state x="659" y="317" width="724" height="522" key="find.popup/0.23.1920.1110@0.23.1920.1110" timestamp="1615731388849" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1615725276447">
+      <screen x="0" y="23" width="1920" height="1110" />
+    </state>
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.23.1920.1110@0.23.1920.1110" timestamp="1615725276447" />
   </component>
 </project>
